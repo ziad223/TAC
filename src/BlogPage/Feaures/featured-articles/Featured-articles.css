@@ -1,0 +1,115 @@
+.featured-articles{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+ .left-feature .feature-img{
+    width: 500px;
+    border-radius: 10px;
+}
+ .left-feature .feature-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+ .left-feature .feature-buttons button{
+    border: none;
+    padding: 10px;
+    font-size: 10px;
+    border-radius: 10px;
+}
+ .left-feature .feature-buttons .remote-btn{
+    background-color: #ebf3ff;
+    color: #3277de;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+ .left-feature .feature-buttons .remote-btn:hover{
+    background-color: #cdd5e2;
+    
+}
+ .left-feature .feature-buttons .date-btn{
+    background-color: #ddd;
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+}
+.left-feature .feature-buttons .date-btn:hover{
+    background-color: #ccc;
+}
+.que-section{
+    font-weight: bold;
+}
+.avatar-section{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 12px;
+}
+.avatar-section h4{
+    color: grey;
+}
+
+.featured-articles .right-feature{
+    background-color: #ebf3ff;
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+    width: 400px;
+}
+.featured-articles .right-feature img{
+   width: 150px;
+}
+.featured-articles .right-feature > *{
+    margin-top: 20px;
+}
+.featured-articles .right-feature h3{
+    font-weight: bold;
+    font-size: 25px;
+}
+.featured-articles .right-feature input{
+    display: block;
+    padding: 15px 20px;
+    border-radius: 30px;
+    border: none;
+    margin: 20px auto;
+}
+.featured-articles .right-feature input:focus{
+    outline: none;
+}
+.subscripe-btn{
+    padding: 15px 30px;
+    border-radius: 30px;
+    background-color: #0a112f;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    border: none;
+    width: 80%;
+}
+.subscripe-btn:hover{
+    background-color: #263a94;
+}
+
+@media screen and (max-width:480px) {
+    .featured-articles{
+        flex-direction: column;
+        gap: 40px;
+    }
+     .left-feature .feature-img{
+        max-width: 100%;
+    }
+    .right-feature{
+        max-width: 100%;
+    }
+    .avatar-section h4{
+        color: grey;
+    }
+    
+}

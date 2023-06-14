@@ -1,0 +1,289 @@
+.how-it-work{
+    margin: 100px auto;
+    text-align: center;
+}
+.how-it-work h2{
+    font-size: 50px;
+    color: #000;
+}
+.how-it-work h2 span{
+    color: #3981f7;
+    display: block;
+}
+
+.how-it-work p{
+    margin-top: 20px;
+    line-height: 1.6;
+    color: grey;
+}
+.how-it-work-buttons{
+    margin-top: 50px;
+}
+.how-it-work-buttons .get-started{
+    background-color: #0a112f;
+    padding: 15px;
+    color: #ffff;
+    font-size: 20px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.5s ease;
+
+}
+.how-it-work-buttons .get-started:hover{
+    background-color: #081757;
+}
+.how-it-work-buttons .learn-more{
+    background-color: #f4f4f5;
+    padding: 15px;
+    color: #ffff;
+    font-size: 20px;
+    border-radius: 30px;
+    border: none;
+    color: #0a112f;
+    margin-left: 25px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+.how-it-work-buttons .learn-more:hover{
+    background-color: #ccc;
+}
+.companies{
+    margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+.companies img{
+    width: 150px;
+}
+
+.sign-up{
+    margin-top: 100px;
+    width: 60%;
+    margin:100px auto;
+    background-color: #f6f6f1;
+    padding: 20px;
+    border-radius: 10px;
+}
+.sign-up-head{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.sign-up .sign-up-head h2{
+    text-align-last: left;
+    margin-left: 40px;
+}
+.sign-up .sign-up-head img{
+    width: 60px;
+   }
+   
+.sign-up p{
+    text-align-last: left;
+    margin-left: 40px;
+}
+.sign-up form{
+    background-color: #fff;
+    padding: 20px;
+    margin: 50px auto;
+    width: 60%;
+    border-radius: 10px;
+}
+.form-content{
+    text-align-last: left;
+}
+.sign-up form img{
+    display: block;
+    margin-bottom: 30px;
+}
+.sign-up form label{
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.sign-up form input{
+  padding: 14px 10px;
+  width: 100%;
+  margin: 10px auto;
+  background-color: #ccc;
+  border-radius: 10px;
+  border: none;
+}
+.sign-up form button{
+    background-color: #0a112f;
+    padding: 10px;
+    margin-top: 20px;
+    color: #ffff;
+    font-size: 16px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.sign-up form button:hover{
+    background-color: #081757;
+}
+.eaiser-section{
+    width: 60%;
+    margin:100px auto;
+    background-color: #f6f6f1;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.eaiser-section-head{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.eaiser-section .eaiser-section-head h2{
+    text-align: left;
+
+}
+.eaiser-section .eaiser-section-head img{
+ width: 60px;
+}
+
+.eaiser-section  p{
+    width: 500px;
+    text-align: left;
+    margin-left: 75px;   
+}
+.eaiser-section .imgs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.eaiser-section .imgs img{
+    width: 250px;
+    height: 250px;
+    margin-top: 30px;
+}
+
+.focus-section{
+    width: 60%;
+    margin:100px auto;
+    background-color: #f6f6f1;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.focus-section-head{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.focus-section .focus-section-head h2{
+    text-align: left;
+}
+.focus-section .focus-section-head img{
+ width: 60px;
+}
+
+.focus-section  p{
+    width: 500px;
+    text-align: left;
+    margin-left: 75px;   
+}
+.focus-section .imgs img{
+    width: 80%;
+    margin-top: 30px;
+}
+
+@media screen and (max-width : 500px) {
+
+    .companies{
+      gap: 30px;
+      flex-direction: column;
+    }
+    .companies img{
+        width: 120px;
+    }
+
+    .sign-up{
+        width: 100%;
+    }
+    .sign-up-head{
+        text-align: center;
+    }
+    .sign-up .sign-up-head h2{
+        margin-left: 40px;  
+        margin-bottom: 20px; 
+        line-height: 1.5;
+        text-align: left; 
+        font-size: 24px;
+    }
+
+    .sign-up .sign-up-head img{
+        width: 50px;
+       }
+       
+    .sign-up p{
+        text-align: left;
+        margin-left: 40px;
+    }
+    .sign-up form{
+        margin: 50px auto;
+        width: 100%;
+    }
+    .form-content{
+        text-align: left;
+    }
+
+    .sign-up form label{
+        font-size: 18px;
+    }
+    .eaiser-section{
+        width: 100%;
+        margin:100px auto;
+        background-color: #f6f6f1;
+        padding: 20px;
+        border-radius: 10px;
+    }
+    
+    .eaiser-section-head{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        gap: 20px;
+    }
+    .eaiser-section h2{
+        font-size: 20px;
+        line-height: 1.5;
+    }
+    .eaiser-section  p{
+        width: 300px;
+        margin-left: 0px;   
+    }
+
+    .eaiser-section .imgs img{
+        width: 150px;
+        height: 150px;
+    }
+    
+    .focus-section{
+        width: 100%;
+    }
+    
+    .focus-section .focus-section-head h2{
+        font-size: 20px;
+    
+    }
+    .focus-section .focus-section-head img{
+     width: 40px;
+    }
+    
+    .focus-section  p{
+        width: 300px;
+        margin-left: 20px;   
+    }
+    .focus-section .imgs img{
+        width: 80%;
+        margin-top: 30px;
+    }
+}

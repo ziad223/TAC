@@ -1,0 +1,72 @@
+.blog-page{
+    margin-top: 100px;
+}
+.blog-title{
+    margin-top: 150px;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.blog-page .blog-text{
+    text-align: center;
+}
+.features{
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.features .team-list{
+    list-style: none;
+    background-color: #f5f9ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 7px 20px;
+    border-radius: 50px;
+    margin: 30px auto;
+    font-size: 14px;
+}
+.features .team-list .team-item{
+    color: grey;
+}
+.features .team-list .team-item.active{
+padding: 10px 25px;
+border-radius: 20px;
+font-weight: bold;
+color: #000;
+-webkit-box-shadow: 1px 1px 22px -10px rgba(0,0,0,0.55);
+-moz-box-shadow: 1px 1px 22px -10px rgba(0,0,0,0.55);
+box-shadow: 1px 1px 22px -10px rgba(0,0,0,0.55);
+background-color: #fff;
+}
+.featured-text{
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+.trending-text{
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+.most-popular-text{
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+
+@media screen and (max-width : 480px) {
+    .blog-title{
+        font-size: 40px;
+    }
+    .blog-page .blog-text{
+        width: 80%;
+        text-align: center;
+        margin: auto;
+    }
+    .features .team-list{
+        flex-direction: column;
+        gap: 40px;
+        padding: 7px 10px;
+    }    
+}

@@ -1,0 +1,99 @@
+.above{
+    margin-top: 100px;
+    text-align: center;
+    width: 65%;
+    margin: 100px auto;
+}
+.above .above-content-up h2{
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+.above .above-content-up h2 span{
+    color: #3981f7;
+  }
+  .above .above-content-up p{
+    color: grey;
+    margin-bottom: 40px;
+  }
+.above-content-down{
+    background-color: #0a112f;
+    color: #fff;
+    padding: 30px ;
+    border-radius: 10px;
+}
+.above-content-down p{
+    margin-bottom: 30px;
+
+}
+.above-content-down .parts{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.above-content-down .parts .part{
+    background-color: #222843;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    font-size: 15px;
+    gap: 10px;
+    width: 300px;
+}
+.above-content-down .parts .part .above-icon{
+    color: #3981f7;
+    font-size: 28px;
+}
+.above-content-down .parts .part .info{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10px;
+}
+.above-content-down .parts .part .info h2{
+    font-size: 25px;
+}
+.above-content-down .parts .part .info p{
+    font-size: 12px;
+    color: grey;
+    margin-top: 10px;
+}
+
+@media screen and (max-width : 480px) {
+    .container{
+        width: 100%;
+    }
+
+    .above{
+        width: 80%;
+    }
+    .above .above-content-up h2{
+      font-size: 28px;
+    }
+      .above .above-content-up p{
+        font-size: 14px;
+      }
+
+    .above-content-down p{
+        margin-bottom: 30px;
+    
+    }
+    .above-content-down .parts{
+        flex-direction: column;
+        gap: 40px;
+    }
+    .above-content-down .parts .part{
+        font-size: 15px;
+        width: 200px;
+    }
+
+    .above-content-down .parts .part .info h2{
+        font-size: 28px;
+    }
+    .above-content-down .parts .part .info p{
+        font-size: 14px;
+    }
+    
+}

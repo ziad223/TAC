@@ -1,0 +1,17 @@
+.latest-text{
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+.latest-articles{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+@media screen and (max-width : 480px) {
+    .latest-articles{
+        flex-direction: column;
+        gap: 80px;
+    }
+}

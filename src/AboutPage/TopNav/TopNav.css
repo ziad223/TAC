@@ -1,0 +1,239 @@
+.top-nav{
+    width: 100%;
+    padding: 20px;
+    position: relative;
+}
+.top-nav .top-nav-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+    
+.top-nav-content .middle-content .nav-items ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+   font-weight: bold;
+
+    
+}
+.top-nav-content .middle-content .nav-items ul li{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.top-nav-content .right-content button{
+ margin-left: 20px;
+}
+.top-nav-content .right-content .nav-log{
+   display: inline-block;
+   font-weight: bold;
+   background-color: transparent;
+   border: none;
+   padding: 12px 20px;
+   border-radius: 10px;
+   cursor: pointer;
+   transition: all 0.5s ease;
+}
+.top-nav-content .right-content .nav-learn{
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+.top-nav-content .right-content .nav-learn:hover{
+     background-color: #ccc;
+}
+.top-nav-content .right-content .nav-log:hover{
+    background-color: #ccc;
+}
+
+
+.work-menu{
+ list-style: none;
+ position: absolute;
+ left: 400;
+ top: 70;  
+ -webkit-box-shadow: 3px 3px 11px -4px rgba(0,0,0,0.75);
+-moz-box-shadow: 3px 3px 11px -4px rgba(0,0,0,0.75);
+box-shadow: 3px 3px 11px -4px rgba(0,0,0,0.75);
+width: 600px;
+padding: 10px;
+text-align: center;
+display: flex;
+align-items: center;
+justify-content: center;
+transition: all 0.7s ease;
+z-index: 99;
+opacity: 0;
+}
+
+.work-nav:hover .work-menu{
+    opacity: 1;
+}
+.work-item{
+    padding: 10px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    display: block;
+}
+.work-item:hover{
+   background-color: #ccc;
+}
+
+.work-menu .work-item{
+    margin: 20px;
+    
+}
+
+
+.feature-menu{
+    list-style: none;
+    position: absolute;
+    left: 400;
+    top: 70;  
+    -webkit-box-shadow: 3px 3px 11px -4px rgba(0,0,0,0.75);
+-moz-box-shadow: 3px 3px 11px -4px rgba(0,0,0,0.75);
+box-shadow: 3px 3px 11px -4px rgba(0,0,0,0.75);
+width: 600px;
+padding: 10px;
+text-align: center;
+display: flex;
+align-items: center;
+justify-content: center;
+transition: all 0.7s ease;
+z-index: 99;
+opacity: 0;
+}
+.feature-nav:hover .feature-menu {
+opacity: 1;
+}
+.feature-item{
+    padding: 10px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    display: block;
+}
+.feature-item:hover{
+   background-color: #ccc;
+}
+
+.feature-menu .feature-item{
+    margin: 20px;
+    
+}
+
+.pricing-menu{
+    list-style: none;
+    position: absolute;
+    left: 400;
+    top: 70;  
+    -webkit-box-shadow: 3px 3px 11px -4px rgba(0,0,0,0.75);
+-moz-box-shadow: 3px 3px 11px -4px rgba(0,0,0,0.75);
+box-shadow: 3px 3px 11px -4px rgba(0,0,0,0.75);
+width: 600px;
+padding: 10px;
+text-align: center;
+display: flex;
+align-items: center;
+justify-content: center;
+transition: all 0.7s ease;
+z-index: 99;
+opacity: 0;
+}
+.pricing-nav:hover .pricing-menu {
+opacity: 1;
+}
+.pricing-item{
+    padding: 10px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    display: block;
+}
+.pricing-item:hover{
+   background-color: #ccc;
+}
+
+.pricing-menu .pricing-item{
+    margin: 20px;
+    
+}
+
+.resourse-menu{
+    list-style: none;
+    position: absolute;
+    left: 400;
+    top: 70;  
+    -webkit-box-shadow: 3px 3px 11px -4px rgba(0,0,0,0.75);
+-moz-box-shadow: 3px 3px 11px -4px rgba(0,0,0,0.75);
+box-shadow: 3px 3px 11px -4px rgba(0,0,0,0.75);
+width: 600px;
+padding: 10px;
+text-align: center;
+display: flex;
+align-items: center;
+justify-content: center;
+transition: all 0.7s ease;
+z-index: 99;
+opacity: 0;
+}
+.resourse-nav:hover .resourse-menu {
+opacity: 1;
+}
+.resourse-item{
+    padding: 10px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    display: block;
+}
+.resourse-item:hover{
+   background-color: #ccc;
+}
+
+.resourse-menu .resourse-item{
+    margin: 20px;   
+}
+
+
+@media screen and (max-width : 480px) {
+    .container{
+        width: 90%;
+    }
+    .top-nav .top-nav-content{
+    flex-direction: column;
+    gap: 20px;
+    }
+        
+    .top-nav-content .middle-content .nav-items ul{
+        gap: 10px;
+       font-size: 10px;       
+    }
+    .top-nav-content .middle-content .nav-items ul li{
+        gap: 5px;
+    }
+    .right-content-buttons{
+        margin-top: 100px;
+    }
+    .work-menu{
+        left: 0;
+        top: 100;  
+        z-index: 2;
+        margin: auto;
+        text-align: center;
+        max-width: 95%;
+        margin-left: 10px;
+    }
+    .menus{
+        z-index: 2222;
+
+    }
+    .work-item{
+        font-size: 10px;
+        gap: 0;
+    }
+}

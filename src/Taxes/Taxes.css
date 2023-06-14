@@ -1,0 +1,173 @@
+.taxes{
+    width: 70%;
+    margin: 100px auto;
+}
+.taxes .generals{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.taxes .generals .general{
+display: flex;
+flex-direction: column;
+gap: 20px;
+width: 32%;
+}
+
+.taxes .generals .general h3{
+   text-align: center;
+   color: grey;
+    }
+.taxes .generals .general .progress{
+    position: relative;
+    border-radius: 30px;
+    border: 1px solid #000;
+    height: 15px;
+}
+.taxes .generals .general .progress.active{
+    background-color: rgb(12, 218, 12);
+    border: none;
+}
+.taxes-title{
+    margin-top: 100px;
+    font-size: 30px;
+}
+.texes-paragraph{
+    margin-top: 30px;
+    line-height: 1.7;
+}
+input:focus{
+    outline: none;
+}
+.company-form{
+    margin-top: 30px;
+}
+.company-form .company-label{
+    color: gray;
+}
+.company-form .company-input{
+    margin-top: 10px;
+    padding:5px 10px;
+    width: 500px;
+}
+.company-form p{
+   margin-top: 10px;
+}
+.company-form h3{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    color: gray;
+}
+.street-label{
+    color: gray;
+}
+.relative{
+    position: relative;
+}
+.icon-input{
+    margin-top: 10px;
+    width: 500px;
+    padding: 5px 10px;  
+}
+.search-absoulte{
+    position: absolute;
+    font-size: 14px;
+    color: gray;
+    top: 5;
+    left: 15;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    letter-spacing: 1;
+}
+.search-icon{
+    font-size: 18px;
+}
+.inputs-group{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+.city-label{
+    color: gray;
+}
+.city-input{
+    margin-top: 15px;
+    padding: 5px 10px;
+    width: 200px;
+}
+.size-label{
+color: gray;
+}
+.size-input{
+    width: 50px;
+    height: 30px;
+    margin-top: 15px;
+}
+.size-input::placeholder{
+    text-align: center;
+    font-size: 14px;
+}
+.size-select{
+    height: 30px;
+}
+.zip-code-label{
+    color: grey;
+}
+
+.zip-code-input{
+    margin-top: 15px;
+    padding: 5px 10px;
+    width: 100px;
+}
+
+.company-type{
+    position: relative;
+    margin-top: 50px;
+}
+.company-type-label{
+    color: gray;
+}
+.company-type-select{
+    position: absolute;
+    left: 0;
+    padding: 5px 10px;
+    width: 500px;
+    cursor: pointer;
+    margin-top: 10\px;
+}
+
+@media screen and (max-width : 480px){
+    .taxes{
+        width: 80%;
+    }
+    .taxes .generals{
+      flex-direction: column;
+      gap: 50px;
+    }
+    .taxes .generals .general{
+    flex-direction: column;
+    width: 98%;
+    }
+    .taxes-title{
+        line-height: 1.4;
+    }
+    .company-form .company-input{
+        width: 300px;
+    }
+    .icon-input{
+        width: 300px;
+    }
+    .inputs-group{
+        flex-direction: column;
+        gap: 40px;
+        text-align: center;
+    }
+
+    .company-type-select{
+        width: 300px;
+    }
+}

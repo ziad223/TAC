@@ -1,0 +1,70 @@
+.most-popular-articles{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.most-popular-card{
+    width: 30%;
+    margin: 15px;
+}
+.most-popular-card img{
+    width: 100%;
+    border-radius: 10px;
+}
+.most-popular-card .popular-butons{
+display: flex;
+align-items: center;
+justify-content: space-between;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+.most-popular-card .popular-butons .contractors-btn{
+    background-color: #ebf3ff;
+    color: #3277de;
+    border: none;
+    padding: 7px;
+    border-radius: 10px;
+    font-size: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.5s ease;
+    font-weight: bold;
+}
+
+.most-popular-card .popular-butons .contractors-btn:hover{
+ background-color: #cdd5e2;
+}
+.most-popular-card .popular-butons .date-btn{
+    background-color: #ddd;
+    color: grey;
+    border: none;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.5s ease;
+}
+.most-popular-card .popular-butons .date-btn:hover{
+    background-color: #ccc;
+}
+.most-popular-card p{
+    font-weight: 600;
+    line-height: 1.5;
+}
+.avatar-section img{
+    width: 35px;
+}
+
+@media screen and (max-width : 480px) {
+    .most-popular-articles{
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .most-popular-card{
+        width: 100%;
+    }
+  
+}

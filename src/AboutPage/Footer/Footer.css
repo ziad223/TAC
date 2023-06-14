@@ -1,0 +1,101 @@
+.footer{
+    width: 80%;
+    margin: 100px  auto auto;
+    padding: 30px;
+}
+.footer .footer-content-up{
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;    
+    margin-bottom: 30px;
+
+}
+.footer .footer-content-up .links ul{
+list-style: none;
+}
+.footer .footer-content-up .links ul .link-item.active{
+  font-weight: bold;
+  margin-bottom: 20px;
+  font-size: 14px;
+  color: #000;
+}
+.footer .footer-content-up .links ul .link-item{
+    color: grey;
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+  .footer .footer-content-up .links ul .link-item a{
+    text-decoration: none;
+    color: #3981f7;
+  }
+  .footer .footer-content-up .links ul .link-item a:hover{
+    color: #0a112f;
+  }
+  .footer-content-down{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+ 
+  .footer-content-down .left-section p{
+    display: inline-block;
+    font-size: 10px;
+    color: grey;
+  }
+  .footer-content-down .left-section p span{
+    margin-left: 20px;
+  }
+  .footer-content-down .right-section div{
+   margin: 10px;
+   border: 1px solid grey;
+   border-radius: 50%;
+   padding: 5px;
+   display: inline-block;
+   cursor: pointer;
+   transition: all 0.5s ease ;
+  }
+  .footer-content-down .right-section div:hover{
+    background-color: #ccc;
+  }
+
+  @media screen and (max-width : 480px){
+    .footer{
+        text-align: center;
+    }
+    .footer .footer-content-up{
+        flex-direction: column;
+        gap: 40px;    
+        margin-bottom: 30px;
+    }
+
+    .footer .footer-content-up .links ul .link-item.active{
+      font-size: 18px;
+    }
+    .footer .footer-content-up .links ul .link-item{
+                font-size: 14px;
+                margin-bottom: 15px;
+      }
+      .footer-content-down{
+        flex-direction: column;
+        gap: 10px;
+      }
+     
+      .footer-content-down .left-section p{
+        display: block;
+        font-size: 12px;
+    }
+      .footer-content-down .left-section p span{
+        margin-left: 20px;
+        display: block;
+        margin-bottom: 10px;    
+        margin-top: 10px;
+      }
+      .footer-content-down .right-section div{
+       margin: 10px;
+       border: 1px solid grey;
+       border-radius: 50%;
+       padding: 5px;
+       display: inline-block;
+       cursor: pointer;
+      }
+  }

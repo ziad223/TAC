@@ -1,0 +1,56 @@
+.cta{
+    margin-top: 100px;
+    text-align: center;
+}
+.cta h2{
+    font-size: 50px;
+    color: #0a112f;
+    margin-bottom: 20px;
+}
+.cta h2 span{
+    color: #3981f7;
+}
+.cta p{
+    margin-bottom: 20px;
+}
+.cta .cta-btn{
+    padding: 15px 30px;
+    border-radius: 30px;
+    background-color: #0a112f;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    border: none;
+}
+.cta .cta-btn:hover{
+    background-color: #263a94;
+
+}
+
+@media screen and (max-width : 480px) {
+    .cta{
+        text-align: center;
+        width: 80%;
+        margin: 100px auto;
+    }
+    .cta h2{
+        font-size: 50px;
+        color: #0a112f;
+        margin-bottom: 20px;
+    }
+    .cta h2 span{
+        color: #3981f7;
+    }
+    .cta p{
+        margin-bottom: 20px;
+    }
+    .cta .cta-btn{
+        padding: 15px 30px;
+        border-radius: 30px;
+        background-color: #0a112f;
+        color: #fff;
+        font-size: 18px;
+    
+    }
+}

@@ -1,0 +1,23 @@
+.not-found-page h2{
+    margin-top: 100px;
+    font-size: 50px;
+    font-weight: bold;
+    color: red;
+}
+.not-found-page p{
+line-height: 1.5;
+margin-top: 10px;
+font-size: 30px;
+}
+
+@media screen and (max-width : 480px) {
+    .not-found-page h2{
+        font-size: 40px;
+        text-align: center;
+    }
+    .not-found-page p{
+    margin-top: 10px;
+    font-size: 30px;
+    text-align: center;
+    }
+}

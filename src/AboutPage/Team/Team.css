@@ -1,0 +1,104 @@
+.team-section{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+.team-section h2{
+    font-size: 40px;
+}
+.team-section .team-list{
+    list-style: none;
+    background-color: #f5f9ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 7px 20px;
+    border-radius: 50px;
+    margin: 30px auto;
+    font-size: 14px;
+}
+.team-section .team-list .team-item{
+    color: grey;
+}
+.team-section .team-list .team-item.active{
+padding: 10px 25px;
+border-radius: 20px;
+font-weight: bold;
+color: #000;
+-webkit-box-shadow: 1px 1px 22px -10px rgba(0,0,0,0.55);
+-moz-box-shadow: 1px 1px 22px -10px rgba(0,0,0,0.55);
+box-shadow: 1px 1px 22px -10px rgba(0,0,0,0.55);
+background-color: #fff;
+}
+.teams{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.teams .team{
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin: 10px;
+    width: 250px;
+    padding: 20px 10px;
+}
+.teams .team img{
+    margin-bottom: 20px;
+    width: 80px;
+}
+.teams .team h2{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.teams .team p{
+    margin-bottom: 10px;
+    color: grey;
+    font-size: 10px;
+}
+.teams .team .icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.teams .team .icon div{
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+    color: grey;
+    transition: all 0.5s ease;
+}
+.teams .team .icon div:hover{
+  background-color: #ccc;
+}
+
+@media screen and (max-width : 480px) {
+    .team-section{
+        width: 100%;
+    }
+    .team-section h2{
+        font-size: 35px;
+    }
+    .team-section .team-list{
+        width: 70%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 50px;
+        padding: 7px;
+        border-radius: 50px;
+        margin: 30px auto;
+        font-size: 18px;
+    }
+    .teams .team{
+        width: 250px;
+    }
+    .teams .team p{
+        font-size: 14px;
+    }
+    
+}
