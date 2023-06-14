@@ -19,7 +19,7 @@ const SignUp = () => {
     <div className="form-content">
     <img src={logo} alt="" />
         <label>Username :</label>
-        <input type="text" placeholder='Enter Your Username .....' />
+        <input type="text" placeholder='Enter Your Username' />
         <label>Password :</label>
         <input type="password" placeholder='Enter Your Password ' />
         <button className='sign-button'>Create Account</button>
